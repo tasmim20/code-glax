@@ -5,7 +5,6 @@ import HeroSection from "../components/HomePage/HeroSection";
 import ResearchCaseStudies from "../components/HomePage/ResearchCaseStudies";
 import StatsSection from "../components/HomePage/StatsSection";
 import TalkProjectSection from "../components/HomePage/TalkProjectSection";
-import WhyChooseUs from "../components/HomePage/WhyChooseUs";
 
 export default function Home() {
   return (
@@ -14,7 +13,7 @@ export default function Home() {
       <HeroSection />
       <StatsSection />
       <AboutSection />
-      <WhyChooseUs />
+      {/* <WhyChooseUs /> */}
       <TalkProjectSection />
       <ResearchCaseStudies />
       <FAQSection />
